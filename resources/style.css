@@ -77,12 +77,37 @@ div {
 .menu {
   background-color: firebrick;
   padding: 0.75rem;
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
-nav span {
+nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+}
+
+.test3 {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+}
+
+.watch, .pen, .glasses {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.watch img, .pen img, .glasses img {
+  height: 9rem;
+  width: auto;
 }
